@@ -1,0 +1,50 @@
+body {
+    background: #ccc;
+}
+
+.container {
+    text-align: center;
+}
+
+.holder {
+    text-align: center;
+    width: 60%;
+    background: rgb(99, 168, 214);
+    margin: 5rem auto;
+    padding: 1rem 0;
+}
+
+.holder>form>button {
+    width: 60px;
+    border-radius: 6px;
+    outline: none;
+    background: rgb(35, 241, 138);
+    border: none;
+}
+
+.add {
+    background: #fff;
+    width: 60%;
+    min-height: 500px;
+    margin: 0 auto;
+    padding:16px 16px 16px 16px;
+}
+
+.add>h4 {
+    margin-bottom: 1rem;
+}
+
+.add>form>input {
+    margin-left: 20rem;
+    border: none;
+    background: rgb(228, 31, 31);
+    outline: none;
+    border-radius: 6px;
+    color: #ccc;
+}
+
+.add>p {
+    border-bottom: 1px solid #ccc;
+    /* padding-bottom: 4px; */
+}
+

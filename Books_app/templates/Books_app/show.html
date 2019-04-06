@@ -1,0 +1,6 @@
+{% extends 'Books_app/base.html' %}
+{% block content %}
+    {% for books in booklist  %}
+        <p>{{ books }}</p>
+    {% endfor %}
+{% endblock %}
